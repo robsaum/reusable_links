@@ -4,18 +4,28 @@ Plugin Name: Reusable Links
 Version: 0.1
 Updated: 2009-06-18
 Plugin URI: http://
-Description: This plugin automatically builds a link using the data in the wp_links table. Use the format {{url:Link Name}}
-If you put pipes (| |) around the text of one of your links (in the link manager), this plugin will link that text to its uri from the links table. When a link changes, just update it via the Links Manager and it will update throughout your site.
-Requires at least: 3.5
-Tested up to: 3.5
-In WordPress 3.5, the Link Manager was disabled by default. This plugin enables the Links Manager.
-http://core.trac.wordpress.org/ticket/21307
-Author: Originally created by Saumedia, Inc. and was maintained from 2008 - 2011.
+Description: This is a WordPress plugin that automatically builds a link using the data in the wp_links table. No need to search and replace links on your site, just update a link in the Links Manager and those links created with this plugin are automatically updated throughout your site. See README for more information.
+Author: Saumedia, Inc. (2008); handed off in 2020
 Author URI: N/A
 Tags: links, link manager, external links
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: https://www.apache.org/licenses/LICENSE-2.0.txt
 ---------------------------------------------------------------------
+
+Copyright [2020] [Robert Saum]
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+
 */
 
 /*
