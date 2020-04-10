@@ -59,7 +59,7 @@ function rmk_content($matches) {
     	    $link_url 		= $mm_content['link_url'];
         	$link_desc 		= $mm_content['link_description'];
         	$link_target 	= $mm_content['link_target'];
-	        $link_text 		= "<a href='$link_url' title='$link_desc' target='$link_target'>$link_name</a>";
+	        $link_text 		= "<a href='$link_url' title='$link_desc' target='$link_target' rel='noreferrer noopener'>$link_name</a>";
 	        $vid_player		= 'Link';
 		}
 		
